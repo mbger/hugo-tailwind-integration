@@ -1,0 +1,48 @@
+/* simple.css */
+
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  line-height: 1.5;
+  font-family: "Helvetica", "Arial", sans-serif;
+  padding: 4em 1em;
+  color: #566b78;
+
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+}
+
+h2, h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #63B3ED;
+  border-bottom: 1px solid #d8dee9;
+}
+
+p > code, dt > code {
+  font-size: 1.2em;
+  padding: 2px 4px;
+}
+
+dt > code {
+  margin-left: -4px;
+}
+
+code,
+pre {
+  background: #F7FAFC;
+  color: #718096;
+}
+
+a {
+  color: #ED64A6;
+}

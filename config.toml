@@ -2,6 +2,9 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "Hugo Starter Template using TailwindCSS"
 
+# Because we'll publish using Github Pages
+publishDir = "docs"
+
 [params]
   mainSections = ["post"]
 

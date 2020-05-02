@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/post/intro/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/hugo-setup/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/hugo-setup-content/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/hugo-setup-templates/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/basic-styling-part-1/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/basic-styling-part-2/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/basic-styling-part-3/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/setup-tailwindcss-part-1/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/setup-tailwindcss-part-2/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/setup-tailwindcss-part-3/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/setup-tailwindcss-part-4/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/setup-tailwindcss-part-5/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2020-04-12T12:24:54+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+  </url>
+  
+</urlset>

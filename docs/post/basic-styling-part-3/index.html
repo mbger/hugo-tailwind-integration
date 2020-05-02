@@ -1,0 +1,219 @@
+
+
+<!doctype html>
+<html class="no-js" lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Hugo Starter Template using TailwindCSS</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/css/advanced.css" type="text/css"/>
+    </head>
+    <body>
+        <main>
+            
+
+<h1 id="integrating-hugo-with-tailwindcss">Integrating Hugo with TailwindCSS</h1>
+<p>You want to start your own blog and don&rsquo;t know much about web development. Then
+you&rsquo;re at the point where I was a couple of months ago. Building a blog using a
+static site generator seems to be the most popular choice right now. There are
+many static site generators available, so go with one of them. My choice is
+<a href="https://gohugo.io">hugo</a>.</p>
+<h2 id="basic-hugo-setup">Basic Hugo setup</h2>
+<p>First, you need to create your site. Run <code>hugo new site &lt;site-path&gt;</code> to create
+the basic directory structure. It should look like this:</p>
+<pre><code>├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre><p>With the basic structure in place, we can already start to add some content.</p>
+<h2 id="adding-content">Adding Content</h2>
+<p>To add content, run the following command from within your site&rsquo;s root
+directory.</p>
+<pre><code>hugo new post/hello-world.md
+</code></pre><p>This will create a new directory below <code>content/</code> called <code>post</code> with the
+<code>hello-world.md</code> file in it:</p>
+<pre><code>├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   └── post
+│       └── hello-world.md
+├── data
+├── layouts
+├── static
+└── themes
+</code></pre><p>Now that we added some content to our site, it&rsquo;s finally time to preview our
+site with hugo&rsquo;s built-in server. To spin up a local web server hosting the site
+run the following command:</p>
+<pre><code>hugo serve -D
+</code></pre><p>The web browser will be started and listen&rsquo;s to incoming connections on
+<code>http://localhost:1313/</code>. The <code>-D</code> flag tells hugo that you want to include
+content marked as <code>draft</code> in the generated output. Direct your browser to
+<a href="http://localhost:1313/">http://localhost:1313</a> and you&rsquo;ll see: <em>nothing</em>.
+<strong>Why?</strong> Because hugo doesn&rsquo;t know how to render your content, yet. We need to
+tell it how to do so using templates.</p>
+<h2 id="adding-templates">Adding Templates</h2>
+<p>We will start by adding 3 default templates located in <code>layouts/_default</code>:</p>
+<pre><code>├── archetypes
+│   └── default.md
+├── config.toml
+├── content
+│   └── post
+│       └── hello-world.md
+├── data
+├── layouts
+│   ├── _default
+│   │   ├── baseof.html
+│   │   ├── list.html
+│   │   └── single.html
+├── static
+└── themes
+</code></pre><dl>
+<dt><code>layouts/_default/baseof.html</code></dt>
+<dd>This template describes the overarching structure of our site. It includes
+a <code>block</code> placeholder which we use to tell hugo where to put the content in
+our basic HTML structure of the site
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;{{ .Site.LanguageCode }}&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+        &lt;title&gt;{{ .Site.Title }}&lt;/title&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;main&gt;
+            {{ block &quot;main&quot; . }}
+            {{ end }}
+        &lt;/main&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre></dd>
+<dt><code>layouts/_default/list.html</code></dt>
+<dd>
+<p>is our default list template. If we don&rsquo;t have a special template for our
+home page defined (and we do not), then our homepage will be rendered using
+this template. Our homepage will contain a link for each of our content
+pages inside a list.</p>
+<pre><code>{{ define &quot;main&quot; }}
+&lt;ul&gt;
+{{ range where site.RegularPages &quot;Type&quot; &quot;in&quot; site.Params.mainSections }}
+    &lt;li&gt;&lt;a href=&quot;{{ .RelPermalink }}&quot;&gt;{{ .Title }}&lt;/a&gt;&lt;/li&gt;
+{{ end }}
+&lt;/ul&gt;
+{{ end }}
+</code></pre></dd>
+<dt><code>layouts/_default/single.html</code></dt>
+<dd>
+<p>This template describes how each content page is rendered. We will just put
+the page&rsquo;s Title inside an <code>&lt;h1&gt;</code> tag and put the content underneath.</p>
+<pre><code>{{ define &quot;main&quot; }}
+
+&lt;h1&gt;{{ .Title }}&lt;/h1&gt;
+{{ .Content }}
+
+{{ end }}
+</code></pre></dd>
+</dl>
+<p>Running <code>hugo serve -D</code> now should render links to our content right at the
+home page. Clicking the link should take us to the corresponding content page.
+You can tell hugo to always navigate to the page you&rsquo;re currently working by
+invoking <code>hugo serve -D --navigateToChanged</code>.</p>
+<p>Our website is now up and running, though heinously looking. Let&rsquo;s fix that by
+adding some style.</p>
+<h3 id="adding-style">Adding Style</h3>
+<p>To add some styling to our page, we need to create a stylesheet. We&rsquo;ll create
+another top-level directory called <code>assets</code> and add a new CSS file <code>simple.css</code>.</p>
+<p>Right now the content is hard to read because it spans the entire page. Let&rsquo;s
+limit the width of the body and center it by adding the following rules to <code>simple.css</code>:</p>
+<pre><code>body {
+  margin: 0 auto;
+  max-width: 42rem;
+}
+</code></pre><p>Adding those rules to the file doesn&rsquo;t change the look of our site just yet. We
+need to reference the stylesheet from within our base template
+<code>layouts/_default/baseof.html</code>:</p>
+<pre><code>{{ $css := resources.Get &quot;css/simple.css&quot; }}
+
+&lt;!doctype html&gt;
+&lt;html class=&quot;no-js&quot; lang=&quot;{{ .Site.LanguageCode }}&quot;&gt;
+    &lt;head&gt;
+        &lt;meta charset=&quot;utf-8&quot;&gt;
+        &lt;meta http-equiv=&quot;x-ua-compatible&quot; content=&quot;ie=edge&quot;&gt;
+        &lt;title&gt;{{ .Site.Title }}&lt;/title&gt;
+        &lt;meta name=&quot;description&quot; content=&quot;&quot;&gt;
+        &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+        &lt;link rel=&quot;stylesheet&quot; href=&quot;{{ $css.RelPermalink }}&quot; type=&quot;text/css&quot;/&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;main&gt;
+            {{ block &quot;main&quot; . }}
+            {{ end }}
+        &lt;/main&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><p>The content should now be easier to grasp.</p>
+<p>With a few additional changes we can even make it kind of beautiful:</p>
+<pre><code>/* simple.css */
+
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  line-height: 1.5;
+  font-family: &quot;Helvetica&quot;, &quot;Arial&quot;, sans-serif;
+  padding: 4em 1em;
+  color: #566b78;
+}
+
+h1,
+h2,
+h3,
+strong {
+  color: #333;
+}
+
+h2, h3 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+pre {
+  padding: 1em;
+  border-left: 2px solid #63B3ED;
+  border-bottom: 1px solid #d8dee9;
+}
+
+p &gt; code, dt &gt; code {
+  padding: 2px 4px;
+  vertical-align: text-bottom;
+}
+
+dt &gt; code {
+  margin-left: -4px;
+}
+
+code,
+pre {
+  background: #F7FAFC;
+  color: #718096;
+}
+
+a {
+  color: #ED64A6;
+}
+</code></pre><p>Now that we have some feel how for how site generation using hugo works, let&rsquo;s
+step up our game a little bit by <a href="http://example.org/post/setup-tailwindcss-part-1/#getting-started-with-tailwindcss">including TailwindCSS to generate our
+stylesheet(s)</a>.</p>
+
+
+
+        </main>
+    </body>
+</html>
