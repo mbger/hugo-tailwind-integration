@@ -1,0 +1,12 @@
+{
+    "name": "hugo-integrate-tailwind",
+    "description": "",
+    "version": "0.1.0",
+    "author": "Matthias Maurberger <maurberger@sudrocket.de>",
+    "license": "MIT",
+    "scripts": {},
+    "dependencies": {
+        "tailwindcss": "^1.4.4"
+    },
+    "devDependencies": {}
+}

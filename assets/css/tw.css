@@ -1,0 +1,76 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+    @apply max-w-2xl mx-auto leading-normal text-gray-700 py-16 px-4;
+}
+
+h1, h2, h3, strong {
+    @apply text-gray-800;
+}
+
+h1 {
+    @apply text-4xl font-bold;
+}
+
+h2 {
+    @apply text-3xl font-bold;
+}
+
+h3 {
+    @apply text-2xl font-bold;
+}
+
+h2, h3 {
+    @apply mt-4 pt-4 mb-2;
+}
+
+a {
+    @apply text-pink-500 underline;
+}
+
+ul, ol {
+    @apply list-outside;
+}
+
+ul {
+    @apply list-disc;
+}
+
+ol {
+    @apply list-decimal;
+}
+
+li {
+    @apply ml-4 my-4;
+}
+
+dt {
+    @apply my-4;
+}
+
+dd {
+    @apply ml-4 my-2;
+}
+
+pre {
+    @apply p-4 my-2 text-xs border-l-2 border-blue-400;
+}
+
+blockquote {
+    @apply ml-4 italic;
+}
+
+p > code, dt > code, li > code {
+  /* font-size: 1.2em; */
+  @apply px-1;
+}
+
+p {
+    @apply my-2;
+}
+
+code, pre {
+    @apply bg-gray-200 text-gray-600;
+}

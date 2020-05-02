@@ -1,0 +1,9 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Hugo Starter Template using TailwindCSS"
+
+[params]
+  mainSections = ["post"]
+
+[permalinks]
+  post = "/post/:title/"
