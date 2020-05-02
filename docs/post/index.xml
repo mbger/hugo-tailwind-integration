@@ -2,130 +2,130 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Hugo Starter Template using TailwindCSS</title>
-    <link>http://example.org/post/</link>
+    <link>https://mbger.github.io/hugo-tailwind-integration/post/</link>
     <description>Recent content in Posts on Hugo Starter Template using TailwindCSS</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 12 Apr 2020 12:24:54 +0200</lastBuildDate>
     
-	<atom:link href="http://example.org/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mbger.github.io/hugo-tailwind-integration/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Intro</title>
-      <link>http://example.org/post/intro/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/intro/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/intro/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/intro/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo, so let&amp;rsquo;s set it up!</description>
     </item>
     
     <item>
       <title>Hugo Setup</title>
-      <link>http://example.org/post/hugo-setup/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/hugo-setup/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Hugo Setup: Content</title>
-      <link>http://example.org/post/hugo-setup-content/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-content/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/hugo-setup-content/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-content/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Hugo Setup: Templates</title>
-      <link>http://example.org/post/hugo-setup-templates/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-templates/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/hugo-setup-templates/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-templates/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Basic Styling Part 1</title>
-      <link>http://example.org/post/basic-styling-part-1/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-1/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/basic-styling-part-1/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-1/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Basic Styling Part 2</title>
-      <link>http://example.org/post/basic-styling-part-2/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-2/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/basic-styling-part-2/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-2/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Basic Styling Part 3</title>
-      <link>http://example.org/post/basic-styling-part-3/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-3/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/basic-styling-part-3/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-3/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Setup TailwindCSS Part 1</title>
-      <link>http://example.org/post/setup-tailwindcss-part-1/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-1/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/setup-tailwindcss-part-1/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-1/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Setup TailwindCSS Part 2</title>
-      <link>http://example.org/post/setup-tailwindcss-part-2/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-2/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/setup-tailwindcss-part-2/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-2/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Setup TailwindCSS Part 3</title>
-      <link>http://example.org/post/setup-tailwindcss-part-3/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-3/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/setup-tailwindcss-part-3/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-3/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Setup TailwindCSS Part 4</title>
-      <link>http://example.org/post/setup-tailwindcss-part-4/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-4/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/setup-tailwindcss-part-4/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-4/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>
     
     <item>
       <title>Setup TailwindCSS Part 5</title>
-      <link>http://example.org/post/setup-tailwindcss-part-5/</link>
+      <link>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-5/</link>
       <pubDate>Sun, 12 Apr 2020 12:24:54 +0200</pubDate>
       
-      <guid>http://example.org/post/setup-tailwindcss-part-5/</guid>
+      <guid>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-5/</guid>
       <description>Integrating Hugo with TailwindCSS You want to start your own blog and don&amp;rsquo;t know much about web development. Then you&amp;rsquo;re at the point where I was a couple of months ago. Building a blog using a static site generator seems to be the most popular choice right now. There are many static site generators available, so go with one of them. My choice is hugo.
 Basic Hugo setup First, you need to create your site.</description>
     </item>

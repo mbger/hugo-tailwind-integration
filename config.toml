@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://mbger.github.io/hugo-tailwind-integration/"
 languageCode = "en-us"
 title = "Hugo Starter Template using TailwindCSS"
 

@@ -3,81 +3,81 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/post/intro/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/intro/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/hugo-setup/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/hugo-setup-content/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-content/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/hugo-setup-templates/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/hugo-setup-templates/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/basic-styling-part-1/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-1/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/basic-styling-part-2/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-2/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/basic-styling-part-3/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/basic-styling-part-3/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/setup-tailwindcss-part-1/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-1/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/setup-tailwindcss-part-2/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-2/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/setup-tailwindcss-part-3/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-3/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/setup-tailwindcss-part-4/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-4/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/setup-tailwindcss-part-5/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/setup-tailwindcss-part-5/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/post/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/post/</loc>
     <lastmod>2020-04-12T12:24:54+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/categories/</loc>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://mbger.github.io/hugo-tailwind-integration/tags/</loc>
   </url>
   
 </urlset>
